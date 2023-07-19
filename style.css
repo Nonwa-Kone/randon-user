@@ -1,0 +1,88 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins';
+}
+
+body{
+	background: rgba(0, 0, 0, 0.8);
+	background-attachment: fixed;
+	scroll-behavior: smooth;
+}
+
+.app{
+	padding: 40px;
+	width: 100%;
+	background: transparent;
+}
+
+.app h1{
+	text-align: center;
+	font-weight: 400;
+	color: #fff;
+}
+
+#app #card-user{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 600px;
+	height: auto;
+	margin: 40px auto 0 auto;
+	background-color: #fff;
+
+}
+
+#app #card-user .card-profil-img-user{
+	padding: 5px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid grey;
+	border-radius: 50%;
+}
+
+#app #card-user .card-profil-img-user img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+#app #card-user .content-user{
+	color: grey;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#app #card-user .content-user h1{
+	color: #000;
+	font-size: 36px;
+}
+
+#app #card-user .content-user .icon-group{
+    margin-top: 20px;
+}
+
+#app #card-user .content-user .icon-group i{
+	margin-inline: 20px;
+	font-size: 26px;
+	transition: 0.3s ease-in-out;
+}
+
+#app #card-user .content-user .icon-group i:hover{
+	color: green;
+}
+
+#app #card-user .btn {
+	margin-top: 20px;
+	border:none;
+	border-radius: 10px/20px;
+	padding: 10px 30px;
+	background: green;
+}
